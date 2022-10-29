@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity">
+
+
+    <!-- que counter section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:layout_margin="4dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvQueConter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="1/10"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <!-- timer section -->
+
+
+    <!-- que section  -->
+
+    <!-- option section  -->
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="123dp" />
+
+    <TextView
+        android:id="@+id/tvQue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9C27B0"
+        android:gravity="center"
+        android:text=" #1 question"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="9dp"
+        android:orientation="vertical">
+
+        <!-- op1 -->
+
+        <!-- op2 -->
+
+        <!-- op3 -->
+
+        <!--  op4-->
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btOpt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#3F51B4"
+            android:elevation="4dp"
+            android:gravity="start|center_vertical"
+            android:text="Option 1"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/btOpt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#3F51B4"
+            android:elevation="4dp"
+            android:gravity="start|center_vertical"
+            android:text="Option 2"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/btOpt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#3F51B4"
+            android:elevation="4dp"
+            android:gravity="start|center_vertical"
+            android:text="Option 3"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/btOpt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#3F51B4"
+            android:elevation="4dp"
+            android:gravity="start|center_vertical"
+            android:text="Option 4
+"
+            android:textAlignment="textStart" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="71dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#9B26AF"
+                android:text="Time Left"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/tvTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="#9B26AF"
+                android:text="12"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
